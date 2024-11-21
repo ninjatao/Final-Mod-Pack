@@ -392,6 +392,7 @@
     spriteSheet: X_ROB.PCK
     spriteInv: inventory_SECTOPOD
     allowInv: false
+    customArmorPreviewIndex: 31
     corpseBattle:
       - SECTOPOD_CORPSE_1
       - SECTOPOD_CORPSE_2
@@ -419,6 +420,7 @@
   - type: STR_MIB_SECTOPOD_ARMOR
     spriteSheet: MIBSECT.PCK
     allowInv: false
+    customArmorPreviewIndex: 31
     corpseBattle:
       - MIB_SECTOPOD_CORPSE_1
       - MIB_SECTOPOD_CORPSE_2
@@ -1036,6 +1038,7 @@
       - 0.0
   - type: STR_DOGE_ARMOR
     spriteSheet: DOGE.PCK
+    customArmorPreviewIndex: 21
     corpseBattle:
       - STR_DOGE_CORPSE
     frontArmor: 0
@@ -2404,6 +2407,7 @@
     spriteSheet: NEWTANKS.PCK
     spriteInv: inventory_HOVERTANK
     allowInv: false
+    customArmorPreviewIndex: 29
     corpseBattle:
       - HOVERTANK_CORPSE_1
       - HOVERTANK_CORPSE_2
@@ -2433,6 +2437,7 @@
     spriteSheet: SECTOPOD_GAUSS.PCK
     spriteInv: inventory_X_SECTOPOD_GAUSS
     allowInv: false
+    customArmorPreviewIndex: 31
     corpseBattle:
       - SECTOPOD_CORPSE_1
       - SECTOPOD_CORPSE_2
@@ -2462,6 +2467,7 @@
     spriteSheet: SECTOPOD_RAILGUN.PCK
     spriteInv: inventory_X_SECTOPOD_RAILGUN
     allowInv: false
+    customArmorPreviewIndex: 31
     corpseBattle:
       - SECTOPOD_CORPSE_1
       - SECTOPOD_CORPSE_2
