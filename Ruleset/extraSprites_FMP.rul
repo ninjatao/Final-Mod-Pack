@@ -266,6 +266,7 @@ extraSprites:
       270: Resources/Races_Compilation/HybridRace/bigob_DroneWeapon.png
       271: Resources/Tanks_Compilation/bigob_SectopodGauss.png
       272: Resources/Tanks_Compilation/bigob_SectopodRailgun.png
+      853: Resources/FireExtinguisher/bigob_FireExtinguisher.png
   - type: FLOOROB.PCK
     files:
       41: Resources/GravArmors/PowerArmor/FloorCorpse.png
@@ -436,6 +437,7 @@ extraSprites:
       239: Resources/Races_Compilation/SnakemanRace/floorob_SNAKEMAN_LEADER.png
       240: Resources/Races_Compilation/SnakemanRace/floorob_SNAKEMAN_COMMANDER.png
       257: Resources/men_in_black/floorob_MIB_COMMANDER.png
+      763: Resources/FireExtinguisher/floorob_FireExtinguisher.png
   - type: HANDOB.PCK
     height: 40
     width: 256
@@ -519,6 +521,7 @@ extraSprites:
       720: Resources/Weapons_Compilation/PlasmaBlades/handob_PlasmaSword.png
       728: Resources/Weapons_Compilation/ClassicWeapons/handOb_Dynamite.png
       736: Resources/AlienArmouryExpanded/handob_PlasmaSub.png
+      800: Resources/FireExtinguisher/handob_FireExtinguisher.png
   - type: BASEBITS.PCK
     files:
       55: Resources/Vessels/Basebits/Firestorm_base2.png
@@ -2534,3 +2537,49 @@ extraSprites:
     height: 200
     files:
       0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Wounded.png
+  - type: CustomArmorPreviews
+    width: 876
+    height: 60
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/UI/GUI_Soldiers.png
+  - type: DayNightIndicator
+    width: 72
+    height: 24
+    subX: 24
+    subY: 24
+    files:
+      0: Resources/UI/Mun.png
+  - type: BigBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: BigStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: BigWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: BigShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+  - type: FloorBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: FloorStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: FloorWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: FloorShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png

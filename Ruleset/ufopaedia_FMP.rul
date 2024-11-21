@@ -2551,3 +2551,8 @@ ufopaedia:
     requires:
       - STR_CHRYSSALID_ARMOR
     listOrder: 9301
+  - id: STR_FIRE_EXTINGUISHER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FIRE_EXTINGUISHER_UFOPEDIA
+    listOrder: 45680
