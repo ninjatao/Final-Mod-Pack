@@ -1,2 +1,31 @@
 turnAIUseGrenade: 1
 turnAIUseBlaster: 1
+statisticalBulletConservation: true
+buildInfiltrationBaseCloseToTheCountry: true
+stunningImprovesMorale: true
+extendedExperienceAwardSystem: true
+extendedMovementCostRounding: 1
+showDogfightDistanceInKm: true
+surrenderMode: 2
+noLOSAccuracyPenaltyGlobal: 50
+oneHandedPenaltyGlobal: 50
+
+### bughunt stuff: ###
+bughuntMinTurn: 20
+bughuntMaxEnemies: 5
+bughuntRank: 0 # commanders are VIPs
+bughuntLowMorale: 40
+bughuntTimeUnitsLeft: 60
+
+### close quarters combat ###
+enableCloseQuartersCombat: 0
+closeQuartersAccuracyGlobal: 100
+closeQuartersTuCostGlobal: 0
+closeQuartersEnergyCostGlobal: 5
+closeQuartersSneakUpGlobal: 50
+
+### agent hierarchy: ###
+soldiersPerSergeant: 5
+soldiersPerCaptain: 11
+soldiersPerColonel: 23
+soldiersPerCommander: 30
