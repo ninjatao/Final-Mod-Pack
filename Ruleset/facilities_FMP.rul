@@ -28,6 +28,8 @@ facilities:
     monthlyCost: 60000
     personnel: 200
     storage: 50
+    sickBayAbsoluteBonus: 0.25
+    sickBayRelativeBonus: 1.0
     mapName: XBASS_02
   - type: STR_GENERAL_STORES_2
     spriteShape: 309
