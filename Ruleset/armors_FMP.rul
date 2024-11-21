@@ -329,6 +329,7 @@ armors:
     spriteInv: inventory_MIB4
     corpseBattle:
       - STR_MIB4_CORPSE
+    visibilityAtDark: 20
     frontArmor: 100
     sideArmor: 80
     rearArmor: 70
@@ -351,6 +352,7 @@ armors:
     movementType: 1
     corpseBattle:
       - STR_MIB5_CORPSE
+    visibilityAtDark: 20
     frontArmor: 80
     sideArmor: 70
     rearArmor: 60
@@ -438,6 +440,7 @@ armors:
     spriteSheet: CYBER.PCK
     spriteInv: inventory_CYBERDISC
     allowInv: false
+    customArmorPreviewIndex: 30
     corpseBattle:
       - CYBERDISC_CORPSE_1
       - CYBERDISC_CORPSE_2
@@ -467,6 +470,7 @@ armors:
   - type: STR_STORMTROOPER_ARMOR_UC
     spriteSheet: XCOM_12.PCK
     spriteInv: MAN_12
+    customArmorPreviewIndex: 14
     movementType: 1
     corpseBattle:
       - STR_STORMTROOPER_ARMOR_CORPSE
@@ -911,6 +915,7 @@ armors:
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
     spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 0
     storeItem: STR_NONE
     corpseBattle:
       - STR_CORPSE
@@ -937,6 +942,7 @@ armors:
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
     spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 8
     corpseBattle:
       - STR_CORPSE_ARMOR
     storeItem: STR_PERSONAL_ARMOR
@@ -960,6 +966,7 @@ armors:
   - type: STR_SYNTHSUIT_UC
     spriteSheet: XCOM_13.PCK
     spriteInv: MAN_13
+    customArmorPreviewIndex: 15
     corpseBattle:
       - STR_CORPSE_SYNTHSUIT
     storeItem: STR_SYNTHSUIT
@@ -989,8 +996,10 @@ armors:
   - type: STR_POWER_SUIT_UC
     spriteSheet: XCOM_2.PCK
     spriteInv: MAN_2
+    customArmorPreviewIndex: 18
     corpseBattle:
       - STR_CORPSE_SUIT
+    visibilityAtDark: 20
     storeItem: STR_POWER_SUIT
     weight: -35
     stats:
@@ -1013,9 +1022,11 @@ armors:
     loftempsSet: [ 3 ]
   - type: STR_FLYING_SUIT_UC
     spriteSheet: XCOM_8.PCK
+    customArmorPreviewIndex: 19
     corpseItem: STR_CORPSE_FLYING_SUIT
     corpseBattle:
       - STR_CORPSE_FLYING_SUIT
+    visibilityAtDark: 20
     damageModifier:
       - 1.0
       - 1.0
@@ -1287,6 +1298,7 @@ armors:
     spriteSheet: XCOM_CYBERDISC.PCK
     spriteInv: inventory_CYBERDISC
     allowInv: false
+    customArmorPreviewIndex: 30
     corpseBattle:
       - STR_XCOM_CYBERDISC_CORPSE_1
       - STR_XCOM_CYBERDISC_CORPSE_2
@@ -1317,6 +1329,7 @@ armors:
     spriteSheet: XCOM_CYBERDISC_ORANGE.PCK
     spriteInv: inventory_CYBERDISC
     allowInv: false
+    customArmorPreviewIndex: 30
     corpseBattle:
       - STR_XCOM_CYBERDISC_CORPSE_1
       - STR_XCOM_CYBERDISC_CORPSE_2
@@ -1452,6 +1465,7 @@ armors:
   - type: STR_JUGGERNAUT_SUIT_UC
     spriteSheet: XCOM_14.PCK
     spriteInv: MAN_14
+    customArmorPreviewIndex: 20
     corpseBattle:
       - STR_JUGGERNAUT_SUIT_CORPSE
     storeItem: STR_JUGGERNAUT_SUIT
@@ -1482,6 +1496,7 @@ armors:
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
     spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 5
     corpseBattle:
       - STR_ALLOY_VEST_CORPSE
     storeItem: STR_ALLOY_VEST
@@ -1513,6 +1528,7 @@ armors:
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
     spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 4
     corpseBattle:
       - STR_ARMORED_VEST_CORPSE
     storeItem: STR_ARMORED_VEST
@@ -1540,6 +1556,7 @@ armors:
   - type: STR_HAZMAT_ARMOR_UC
     spriteSheet: XCOM_7.PCK
     spriteInv: MAN_7
+    customArmorPreviewIndex: 10
     corpseItem: STR_CORPSE_HAZMAT_ARMOR
     storeItem: STR_HAZMAT_ARMOR
     weight: 4
@@ -1566,6 +1583,7 @@ armors:
   - type: STR_TOXI_SUIT_UC
     spriteSheet: XCOM_15.PCK
     spriteInv: MAN_15
+    customArmorPreviewIndex: 17
     corpseItem: STR_CORPSE_TOXI_SUIT
     storeItem: STR_TOXI_SUIT
     weight: 5
@@ -1596,6 +1614,7 @@ armors:
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
     spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 7
     storeItem: STR_GRAVMODULE_ARMOR
     corpseBattle:
       - STR_CORPSE_GRAVMODULE_ARMOR
@@ -1626,6 +1645,7 @@ armors:
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
     spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 9
     corpseItem: STR_CORPSE_JUMP_ARMOR
     storeItem: STR_JUMP_ARMOR
     weight: 4
@@ -2336,6 +2356,7 @@ armors:
     spriteSheet: DRONE_SHOTGUN.PCK
     spriteInv: inventory_SCOUT_DRONE
     allowInv: false
+    customArmorPreviewIndex: 27
     corpseBattle:
       - STR_SMALL_TANK_CORPSE
     frontArmor: 20
@@ -2474,6 +2495,7 @@ armors:
     spriteSheet: TANK2.PCK
     spriteInv: inventory_X_SECTOPOD_LASER
     allowInv: false
+    customArmorPreviewIndex: 31
     corpseBattle:
       - SECTOPOD_CORPSE_1
       - SECTOPOD_CORPSE_2
@@ -2503,6 +2525,7 @@ armors:
     spriteSheet: TANK3.PCK
     spriteInv: inventory_X_SECTOPOD_PLASMA
     allowInv: false
+    customArmorPreviewIndex: 31
     corpseBattle:
       - SECTOPOD_CORPSE_1
       - SECTOPOD_CORPSE_2
