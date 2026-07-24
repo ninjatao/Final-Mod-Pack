@@ -146,6 +146,10 @@ mapScripts:
     - type: addUFO
     - type: addCraft
     - type: addBlock
+      executionChances: 50
+      size: 3
+      executions: 1
+    - type: addBlock
       # executionChances: 50
       size: 2
       executions: 1

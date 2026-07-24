@@ -1049,6 +1049,12 @@ terrains:
       - name: ALT_BARN_17
         width: 10
         length: 10
+      - name: ALT_BARN_HUGE_00
+        width: 30
+        length: 30
+      - name: ALT_BARN_HUGE_01
+        width: 30
+        length: 30
   - name: URBANJUNK
     mapDataSets:
       - BLANKS
